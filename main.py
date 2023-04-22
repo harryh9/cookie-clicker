@@ -1,10 +1,8 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver import ChromeOptions
 import time
 
-service = Service("C:/Users/harry/OneDrive/Documents/Coding/Python_course/chromedriver_win32/chromedriver.exe")
 options = ChromeOptions()
 
 options.add_experimental_option("detach", True)
